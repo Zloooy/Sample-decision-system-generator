@@ -12,3 +12,4 @@ class SampleDecisionSystemParameters:
 class NotebookParameters(SampleDecisionSystemParameters):
     '''Класс для передачи параметров в Jupyter Notebook генератора ЭИС'''
     output_file_path: str # Путь для сохранения результирующей таблицы решений
+    connected_vars_file_path: str | None = None
